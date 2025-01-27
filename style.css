@@ -1,0 +1,23 @@
+
+/*Configurações Gerais*/
+*{
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: purple;
+}
+
+
+/*Configurações do HEADER*/
+header{
+  background-color: white;
+}
+.nav-link{
+  font-size: 1.3rem;
+}
+
