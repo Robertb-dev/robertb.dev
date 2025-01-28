@@ -9,14 +9,22 @@
 }
 
 body{
-  background-color: purple;
+  background-color: #403846;
 }
-
+/*cor purple*/
+.container{
+  background-color: #A01FF0;
+}
 
 /*Configurações do HEADER*/
 header{
   background-color: white;
 }
+
+header .container{
+  background-color: white;
+}
+
 .nav-link{
   font-size: 1.3rem;
 }
