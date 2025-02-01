@@ -9,23 +9,51 @@
 }
 
 body{
-  background-color: #403846;
+  background-color: #211925;
 }
-/*cor purple*/
+/*antiga cor: purple*/
 .container{
   background-color: #A01FF0;
 }
 
-/*Configurações do HEADER*/
-header{
-  background-color: white;
+h1,h2,h3,h4,h5{
+  color:#fdf7ff;
+}
+p{
+  color: #fdf7ff;
 }
 
-header .container{
-  background-color: white;
+/*Configurações do HEADER*/
+nav{
+  background-color: #a287b0;
+}
+
+.espacoslaterais{
+  width: 80%;
 }
 
 .nav-link{
   font-size: 1.3rem;
 }
 
+/*Configurações do Carrousel de slides*/
+#carouselSlide{
+  padding-top: 6rem;
+}
+
+/*Configurações do Sobre mim*/
+
+
+/*configurações do Portifólio*/
+.carousel-control-prev{
+  width: 2.2rem;
+
+}
+.carousel-control-next{
+  width: 2.2rem;
+}
+
+.opacidade{
+  opacity: 0;
+}
+/*Configurações do rodapé*/
