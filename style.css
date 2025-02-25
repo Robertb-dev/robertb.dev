@@ -9,32 +9,56 @@
 }
 
 body{
-  background-color: #211925;
+  background-color: #000000;
 }
-/*antiga cor: purple*/
-.container{
-  background-color: #A01FF0;
+/*paleta de cores do site
+cor principal: #000000 (preto)
+cor segundária: #008000 (verde)
+cor terceária: #91958c (cinza)
+cor quaternária: #3f4a3c (cinza do navbar)
+cor quintária: #00c800 (links no navbar em hover)*/
+
+/*IDEIAS DE EFEITOS
+1 efeito animado de digitação no texto do sobre mim
+2 efeito de brilho no botões do navbar quando passamos o mouse
+#302b32
+*/
+
+@font-face {
+  font-family: jetbrainsfont;
+  src: url(tipografia/JetBrainsMono-2.304/fonts/webfonts/JetBrainsMono-ExtraBold.woff2);
 }
 
+
 h1,h2,h3,h4,h5{
-  color:#fdf7ff;
+  color:#008000;
+  font-family: jetbrainsfont;
 }
 p{
-  color: #fdf7ff;
+  color: #008000;
+  font-size: 1.2rem;
+  font-family: jetbrainsfont;
 }
 
 /*Configurações do HEADER*/
 nav{
-  background-color: #a287b0;
+  background-color: #3c373e;
 }
-
+.nav-link{
+  color:#008000;
+  font-weight: bolder;
+}
+.nav-link:hover{
+  color:#00c800;
+}
 .espacoslaterais{
-  width: 80%;
+  width: 88%;
 }
 
 .nav-link{
   font-size: 1.3rem;
 }
+
 
 /*Configurações do Carrousel de slides*/
 #carouselSlide{
