@@ -96,43 +96,45 @@
 
 
 <section><!--ÁREA PORTIFÓLIO-->
-  <div class="container pt-5">
+  <div class="container pt-5 mb-5">
   <div id="portifolio" class="mb-4">
     <h2>Portfólio</h2>
   </div>
   
-  <div class="mt-5 mb-5"><!--Primeiro conjunto de slides-->
-    <div>
+  <div class="mb-4"><!--Primeiro conjunto de slides-->
+    <div class="mb-4">
       <h3>Trabalhos Freelance</h3>
     </div>
-    <div id="carouselEventos" class="carousel slide ">
+    <div id="carouselFreelance" class="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <div class="row row-cols-1 row-cols-md-3 g-4 ms-4 me-4"><!--PRIMEIRO TRIO DE CARDS-->
-            <div class="col">
+            <div class="col cardheight">
               <div class="card h-100">
                 <img src="imagens/cards/doctorcare.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
-                  <div class="h-75">
+                  <div class="card h-75">
                   <h5 class="card-title">DoctorCare</h5>
                   <p class="card-text">Evento de 2022 da rocketseat em que explorava instruções avançadas de HTML e CSS</p></div>
-                  <a href="https://robertb-dev.github.io/DoctorCare/" target="_blank" class="btn text-primary">Acesse Aqui</a>
+                  <div class="d-grid mx-auto">
+                    <button class="btn btn-success" type="button"><a href="https://robertb-dev.github.io/DoctorCare/" target="_blank" class="btn text-dark">Acesse Aqui</a></button>
+                  </div>
 
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col cardheight">
               <div class="card h-100">
-                <img src="imagens/cards/maratona explorar.jpg" class="card-img-top" alt="Annabella modelo">
+                <img src="imagens/cards/maratona explorar.jpg" class="card-img-top" alt="">
                 <div class="card-body">
-                  <div class="h-75">
+                  <div class="card h-75">
                   <h5 class="card-title">Maratona Explorar</h5>
                   <p class="card-text">Outro evento da escola Rocketseat em 2022, em que explorava intruções em Javascript</p></div>
                   <a href="https://robertb-dev.github.io/Maratona-Explorer/" target="_blank" class="btn text-primary">Acesse Aqui</a>
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col cardheight">
               <div class="card h-100">
                 <img src="imagens/cards/devestrelas.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -147,7 +149,7 @@
         </div>
         <div class="carousel-item"><!--SEGUNDO TRIO DE CARDS-->
           <div class="row row-cols-1 row-cols-md-3 g-4 ms-4 me-4">
-            <div class="col ">
+            <div class="col cardheight">
               <div class="card h-100">
                 <img src="imagens/cards/nada.jpg" class="card-img-top" alt="...">
                 <div class="card-body ">
@@ -157,7 +159,7 @@
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col cardheight">
               <div class="card h-100">
                 <img src="imagens/cards/nada.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
@@ -168,13 +170,13 @@
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col cardheight">
               <div class="card h-100">
                 <img src="imagens/cards/nada.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <div class="h-75">
                     <h5 class="card-title">Disponível</h5>
-                    <p class="card-text opacidade">Meu primeiro site foi uma homenagem ao escritor Stan Lee, criador da maior parte dos herois da editora Marvel</p></div>
+                    <p class="card-text opacidade"></p></div>
                     <a href=" https://robertb-dev.github.io/Stan-Lee-projeto/" target="_blank" class="btn text-primary opacidade">Acesse Aqui</a>
                 </div>
               </div>
@@ -184,57 +186,62 @@
 
       </div>
 
-      <button class="carousel-control-prev bg-dark" type="button" data-bs-target="#carouselEventos" data-bs-slide="prev">
+      <button class="carousel-control-prev bg-dark" type="button" data-bs-target="#carouselFreelance" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
 
-      <button class="carousel-control-next bg-dark" type="button" data-bs-target="#carouselEventos" data-bs-slide="next">
+      <button class="carousel-control-next bg-dark" type="button" data-bs-target="#carouselFreelance" data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
     </div>
   </div>
 
-  <div><!--Segundo conjunto de slides-->
-    <div>
+  <div class="mt-5"><!--Segundo conjunto de slides-->
+    <div class="mb-4">
       <h3>Trabalhos da faculdade e sites experimentais</h3>
     </div>
     <div id="carouselExperimental" class="carousel slide">
       <div class="carousel-inner">
         <div class="carousel-item active">
           <div class="row row-cols-1 row-cols-md-3 g-4 ms-4 me-4"><!--PRIMEIRO TRIO DE CARDS-->
-            <div class="col">
+            <div class="col cardheight">
               <div class="card h-100">
                 <img src="imagens/cards/stanlee.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <div class="h-75">
                   <h5 class="card-title">STAN LEE</h5>
                   <p class="card-text">Meu primeiro site foi uma homenagem ao escritor Stan Lee, criador da maior parte dos herois da editora Marvel</p></div>
-                  <a href=" https://robertb-dev.github.io/Stan-Lee-projeto/" target="_blank" class="btn text-primary">Acesse Aqui</a>
-
-                </div>
+                  <div class="d-grid mx-auto">
+                    <button class="btn btn-success" type="button"><a href=" https://robertb-dev.github.io/Stan-Lee-projeto/" target="_blank" class="btn text-dark">Acesse Aqui</a></button>
+                  </div>
+                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col cardheight">
               <div class="card h-100">
                 <img src="imagens/cards/annabella.jpg" class="card-img-top" alt="Annabella modelo">
                 <div class="card-body">
                   <div class="h-75">
                   <h5 class="card-title">ANNABELLA</h5>
                   <p class="card-text">Site experimental de uma modelo fictícia</p></div>
-                  <a href="https://robertb-dev.github.io/projeto-annabella/" target="_blank" class="btn text-primary">Acesse Aqui</a>
+                  <div class="d-grid mx-auto">
+                    <button class="btn btn-success" type="button"><a href="https://robertb-dev.github.io/projeto-annabella/ " target="_blank" class="btn text-dark">Acesse Aqui</a></button>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col cardheight">
               <div class="card h-100">
                 <img src="imagens/cards/museu.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <div class="h-75">
                   <h5 class="card-title">MUSEU NACIONAL</h5>
                   <p class="card-text">Esse projeto foi parte de um web curso de HTML e CSS</p></div>
-                  <a href="https://robertb-dev.github.io/MuseuNacional/" target="_blank" class="btn text-primary">Acesse Aqui</a>
+                  <div class="d-grid mx-auto">
+                    <button class="btn btn-success" type="button"><a href="https://robertb-dev.github.io/MuseuNacional/" target="_blank" class="btn text-dark">Acesse Aqui</a></button>
+                  </div>
                 </div>
               </div>
             </div>
@@ -242,42 +249,78 @@
         </div>
         <div class="carousel-item"><!--SEGUNDO TRIO DE CARDS-->
           <div class="row row-cols-1 row-cols-md-3 g-4 ms-4 me-4">
-            <div class="col">
+            <div class="col cardheight">
               <div class="card h-100 ">
                 <img src="imagens/cards/t1 financeira.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <div class="h-75">
                   <h5 class="card-title">T1 financeira</h5>
                   <p class="card-text">Essa foi a primeira versão do meu TCC do ifrn</p></div>
-                  <a href="https://robertb-dev.github.io/t1-gestao-financeira/" target="_blank" class="btn text-primary">Acesse Aqui</a>
+                  <div class="d-grid mx-auto">
+                    <button class="btn btn-success" type="button"><a href="https://robertb-dev.github.io/t1-gestao-financeira/" target="_blank" class="btn text-dark">Acesse Aqui</a></button>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col cardheight">
               <div class="card h-100">
                 <img src="imagens/cards/t1 banco.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <div class="h-75">
                   <h5 class="card-title">T1 banco</h5>
                   <p class="card-text">Após revisar algumas ideias e consultar o orientador, modifiquei o site para essa é a versão final, do meu TCC no IFRN</p></div>
-                  <a href="https://robertb-dev.github.io/T1-banco-digital/" target="_blank" class="btn text-primary">Acesse Aqui</a>
+                  <div class="d-grid mx-auto">
+                    <button class="btn btn-success" type="button"><a href="https://robertb-dev.github.io/T1-banco-digital/" target="_blank" class="btn text-dark">Acesse Aqui</a></button>
+                  </div>
                 </div>
               </div>
             </div>
-            <div class="col">
+            <div class="col cardheight">
               <div class="card h-100">
                 <img src="imagens/cards/doctorcare.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <div class="h-75">
                   <h5 class="card-title">DoctorCare</h5>
                   <p class="card-text">Evento de 2022 da rocketseat em que explorava instruções avançadas de HTML e CSS</p></div>
-                  <a href="https://robertb-dev.github.io/DoctorCare/" target="_blank" class="btn text-primary">Acesse Aqui</a>
+                  <div class="d-grid mx-auto">
+                    <button class="btn btn-success" type="button"><a href="https://robertb-dev.github.io/DoctorCare/" target="_blank" class="btn text-dark">Acesse Aqui</a></button>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
+        </div><!--Fim do segundo trio de cards-->
 
+        <div class="carousel-item"><!--TERCEIRO TRIO DE CARDS-->
+          <div class="row row-cols-1 row-cols-md-3 g-4 ms-4 me-4">
+            <div class="col cardheight">
+              <div class="card h-100">
+                <img src="imagens/cards/maratona explorar.jpg" class="card-img-top" alt="Annabella modelo">
+                <div class="card-body">
+                  <div class="h-75">
+                  <h5 class="card-title">Maratona Explorar</h5>
+                  <p class="card-text">Outro evento da escola Rocketseat em 2022, em que explorava intruções em Javascript</p></div>
+                  <div class="d-grid mx-auto">
+                    <button class="btn btn-success" type="button"><a href="https://robertb-dev.github.io/Maratona-Explorer/" target="_blank" class="btn text-dark">Acesse Aqui</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col cardheight">
+              <div class="card h-100">
+                <img src="imagens/cards/devestrelas.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <div class="h-75">
+                  <h5 class="card-title">Dev nas estrelas</h5>
+                  <p class="card-text">Evento em 2023 da escola Driven</p></div>
+                  <div class="d-grid mx-auto">
+                    <button class="btn btn-success" type="button"><a href="https://robertb-dev.github.io/dev-nas-estrelas/" target="_blank" class="btn text-dark">Acesse Aqui</a></button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div><!--Fim do terceiro trio de cards-->
       </div>
 
       <button class="carousel-control-prev bg-dark" type="button" data-bs-target="#carouselExperimental" data-bs-slide="prev">
