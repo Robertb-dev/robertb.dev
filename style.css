@@ -38,6 +38,8 @@ p{
   color: #008000;
   font-size: 1.2rem;
   font-family: jetbrainsfont;
+  text-align: justify;
+  text-indent: 5%;
 }
 
 /*Configurações do HEADER*/
@@ -85,12 +87,12 @@ nav{
 /*Configurações do rodapé*/
 
 /*tasks
-1 fazer o link dos dois ultimos trabalhos que fiz na unp e colocar nos dois primeiros cards experimentais
-2 publicar o site da gabi e informa-la, colocar nos cards freelas
+1 fazer o link dos dois ultimos trabalhos que fiz na unp e colocar nos dois primeiros cards experimentais FEITO
+2 publicar o site da gabi e informa-la, colocar nos cards freelas MAIS OU MENOS FEITO
 3 estudar como fará com os cards em telas pequenas, talvez fazer um carrosel de cards para aparecer em sm
-e o que ja tem para md em diante,
-4 depois perguntar aos amigos se eles querem sites
-5 ajeitar a parte do sobre mim, duas fotos do lado esquerdo, uma em cima da outra, o texto resumido a direita
+e o que ja tem para md em diante EXATAMENTE FEITO
+4 depois perguntar aos amigos se eles querem sites AINDA NÃO
+5 ajeitar a parte do sobre mim, duas fotos do lado esquerdo, uma em cima da outra, o texto resumido a direita FEITO
 6 fazer os 3 slides
 7 preencher as informações do rodapé
 8 trazer a logo
