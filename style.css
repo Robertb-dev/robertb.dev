@@ -64,8 +64,9 @@ nav{
 
 
 /*Configurações do Carrousel de slides*/
-#carouselSlide{
-  padding-top: 6rem;
+.espazio{
+  padding-top: 5rem;
+  width: 80%;
 }
 
 /*Configurações do Sobre mim*/
