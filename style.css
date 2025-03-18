@@ -9,7 +9,7 @@
 }
 
 body{
-  background-color: #000000;
+  background-color: #f0f0f0;
 }
 /*paleta de cores do site
 cor principal: #000000 (preto)
@@ -19,9 +19,9 @@ cor quaternária: #3f4a3c (cinza do navbar)
 cor quintária: #00c800 (links no navbar em hover)*/
 
 /*IDEIAS DE EFEITOS
-1 efeito animado de digitação no texto do sobre mim
-2 efeito de brilho no botões do navbar quando passamos o mouse
+efeito de brilho no botões do navbar quando passamos o mouse
 #302b32
+em vez de sobre eu, faça "meus metodos"
 */
 
 @font-face {
@@ -31,11 +31,9 @@ cor quintária: #00c800 (links no navbar em hover)*/
 
 
 h1,h2,h3,h4,h5{
-  color:#008000;
   font-family: jetbrainsfont;
 }
 p{
-  color: #008000;
   font-size: 1.2rem;
   font-family: jetbrainsfont;
   text-align: justify;
@@ -47,15 +45,11 @@ nav{
   background-color: #3c373e;
 }
 .nav-link{
-  color:#008000;
+
   font-weight: bolder;
 }
 .nav-link:hover{
   color:#00c800;
-}
-/*Espaço do conteudo da barra de navegação*/
-.espacoslaterais{
-  width: 88%;
 }
 
 .nav-link{
@@ -63,16 +57,15 @@ nav{
 }
 
 
-/*Configurações do Carrousel de slides*/
-.espazio{
-  padding-top: 5rem;
-  width: 80%;
+/*Configurações da área slides*/
+.imgeu{
+height: 70%;
 }
 
-/*Configurações do Sobre mim*/
+/*Configurações do meus métodos*/
 
 
-/*configurações do Portifólio*/
+/*configurações do Projetos*/
 .cardheight{
   height: 30rem;
 }
